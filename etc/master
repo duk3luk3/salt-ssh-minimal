@@ -1,0 +1,8 @@
+file_roots:
+  base:
+    - states
+pillar_roots:
+  base:
+    - pillar
+log_file: var/log/master
+root_dir: .

@@ -1,0 +1,3 @@
+salt-ssh:
+  config_dir: etc/
+  ssh_wipe: True
