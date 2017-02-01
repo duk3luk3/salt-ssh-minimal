@@ -1,4 +1,4 @@
 salt-ssh:
   config_dir: etc/
   ssh_wipe: True
-  log_file: /tmp/salt-ssh-master-log
+  ssh_log_file: /tmp/salt-ssh-master-log

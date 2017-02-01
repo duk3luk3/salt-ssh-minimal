@@ -1,2 +1,5 @@
 localhost:
   host: localhost
+  minion_opts:
+    root_dir: /tmp/salt-ssh-minion
+    log_file: /tmp/salt-ssh-minion-log
