@@ -1,0 +1,13 @@
+{% set title = grains['id'] + ' - internaldns2' %}
+
+==============================================================================[1m
+==={{ title|center(72) }}===
+==={{ 'Interner DNS-Server'|center(72)===
+[0m
+
+  Hier läuft ein bind (Slave von tuminfo1, forwardet auf dnscache1/2)
+  für die interne DNS-Auflösung und interne Zonen
+  und ein powerdns mit dynamische-statischen reverse-zonen (für SLAAC-Zonen)
+
+==============================================================================
+

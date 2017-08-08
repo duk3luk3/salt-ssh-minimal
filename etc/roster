@@ -1,5 +1,12 @@
 localhost:
+  sudo: True
   host: localhost
+  minion_opts:
+    root_dir: /tmp/salt-ssh-minion
+    log_file: /tmp/salt-ssh-minion-log
+vmrbg1:
+  sudo: True
+  host: vmrbg1
   minion_opts:
     root_dir: /tmp/salt-ssh-minion
     log_file: /tmp/salt-ssh-minion-log
