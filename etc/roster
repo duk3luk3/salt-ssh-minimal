@@ -1,6 +1,7 @@
 localhost:
   sudo: True
   host: localhost
+  sudo: True
   minion_opts:
     root_dir: /tmp/salt-ssh-minion
     log_file: /tmp/salt-ssh-minion-log
